@@ -19,3 +19,75 @@
 body {
 	font-family: var(--font-sans), serif;
 }
+
+
+.container {
+	background-color:whitesmoke ;
+	width: 100%;
+	min-height: 100vh;
+	outline: solid 5px whitesmoke;
+	display: flex;
+	gap: 1rem;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: o auto;
+	padding: 2px 16px;
+
+}
+
+.card {
+   /*Addshadowstocreatethe"card"effect*/
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   width: 300px;
+   height: 500px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   aspect-ratio: 1;
+   font-size: 1rem;
+   min-height: 2vh;
+   border-radius: 24px;
+   background-color:whitesmoke;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-img {
+  width: 200px 200px;
+  margin: 10px;
+  display: inline-block;
+
+}
+
+.card-title {
+  margin: 5px;
+}
+
+.card-text {
+  margin: 10px;
+}
+
+.buy {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
